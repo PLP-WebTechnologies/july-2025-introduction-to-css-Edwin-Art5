@@ -21,7 +21,7 @@ header {
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
-    border: 1.5px solid #0f172a; /* Dark border for box model demo */
+    border: 1.5px solid #0f172a;
 }
 
 /* Navigation */
@@ -53,8 +53,8 @@ nav ul li a:hover {
 /* Sections */
 section {
     background: white;
-    padding: 20px;   /* Inside space */
-    margin-bottom: 25px; /* Outside space */
+    padding: 20px;   
+    margin-bottom: 25px; 
     border: 1.5px solid #d1d5db; /* Light gray border */
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -107,7 +107,7 @@ footer {
     padding-top: 10px;
 }
 
-/* Special Background Colors for Visual Separation */
+/* Background Colors for specific sections for better visual overall appearance */
 #about {
     background-color: #fef3c7; /* Light yellow */
 }
