@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+  <head> 
+
+    <meta charset="UTF-8">
+    <meta name= "description" content="Edwin's Web Dev Journey">
+    <meta name="author" content="Edwin">
+    <meta name="keywords" content="HTML, tutorials, web development, Edwin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Edwin's Website </title>
+    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body> 
+
+    <!--Website Header-->
+    <header>
+      <h1> <strong> Edwin's Web Dev Journey</strong> </h1>
+    </header>
+    
+
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+
+    <!--Main Content-->
+    <main id="main-content">
+
+    <!-- About Me Section -->
+      <section id="about" aria-labelledby="About me">
+      <h2 id="About me">About Me</h2>
+      <p>Hi, I'm Edwin—a curious web development enthusiast exploring HTML5 and front-end magic through PLP Academy.
+          I love turning ideas into clean, user-friendly websites.</p>
+      </section>
+      <figure>
+      <img src="my_photo.jpg" alt="A photo of Edwin" style="width: 200px;">
+      </figure>
+      </section>
+
+    <!-- Services Section -->
+      <section id="services section" aria-labelledby="Services">
+        <h2 id="Services">Services</h2>
+        <ul>
+          <li>Web Design</li>
+          <li>HTML5 basics</li>
+          <li>Accessibility tips</li>
+        </ul>
+      </section>
+
+    <!-- Projects Section -->
+      <section id="projects section" aria-labelledby="Projects">
+        <h2 id="Projects">Projects</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col"> <strong>Project Name</strong> </th>
+              <th scope="col"> <strong>Description</strong> </th>
+              <th scope="col"> <strong>Year</strong> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td> My First Site </td>
+              <td> Basic HTML structure </td>
+              <td> 2025 </td>
+            </tr>              
+            <tr>
+              <td> Form Builder </td>
+              <td> HTML5 form elements </td>
+              <td> 2025 </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    <!--Featured Video Section-->
+      <section id="featured video section" aria-labelledby="Featured Video">
+        <h2 id="Featured Video">Featured Video</h2>
+        <figure>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg?si=Qpblfpr5jigJ1hQ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </figure>
+      </section>
+
+    <!--Contact Section-->
+      <section id="contact section" aria-labelledby="Contact Me">
+        <h2 id="Contact Me"> Contact Me </h2>
+        <form action="#" method="get">
+          <label for="name"> Name </label>
+          <input type="text" name="name" id="name" placeholder="Username" required>
+          <br>
+          <br>
+          <label for="email"> Email </label>
+          <input type="email" name="email" id="email" placeholder="username@gmail.com" required>
+          <br>
+          <br>
+          <label for="message"> Message </label>
+          <textarea id="message" name="message"></textarea>
+          <br>
+          <br>
+          <button type="submit" > Send Message </button>
+        </form>
+      </section>
+
+      <!--Newsletter Signup-->
+      <section id="newsletter section" ara-labelledby="Newsletter Signup">
+        <h2 id="Newsletter Signup"> Newsletter Signup </h2>
+        <form action="#" method="get">
+          <label for="subscribe" > Subscribe to my newsletter: </label>
+          <br>
+          <br>
+          <input id="subscribe" type="email" name="subscribe" placeholder="username@gmail.com" >
+
+          <button type="submit" > Subscribe </button>
+        </form>
+      </section>
+
+      <br>
+      <!--GitHub Button-->
+      <section id="github button" aria-label="Visit My GitHub">
+        <a href="https://github.com/Edwin-Art5" target="_blank"> <button>Visit My GitHub</button> </a>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; Edwin. All rights reserved. </p>
+    </footer>
+   
+  </body>
+
+</html>
