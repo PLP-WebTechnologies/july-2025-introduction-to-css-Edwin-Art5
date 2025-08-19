@@ -1,142 +1,27 @@
-/* General Set */
+/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
-body {
-    font-family:  Arial, sans-serif;
+/* Heading Styling */
+h1 {
+    color: white;
+    background-color: #1e293b; /* dark shade */
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 16px;
     line-height: 1.6;
-    background-color: white;
-    color: black;
-    padding: 20px;
-}
-
-/* Header */
-header {
-    background-color: #1e3a8a; /* Navy blue */
+    background-color: #334155;
     color: white;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1.5px solid #0f172a;
+    padding: 20px;       /* inside spacing */
+    margin: 20px;        /* outside spacing */
+    border: 1.5px solid #0f172a; /* border */
 }
-
-/* Navigation */
-nav ul {
-    list-style: none;
-    text-align: center;
-    background-color: #3b82f6; /* Bright blue */
-    padding: 15px 0;
-    border: 1.5px solid #1e40af;
-    margin-bottom: 20px;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-
-/* Sections */
-section {
-    background: white;
-    padding: 20px;   
-    margin-bottom: 25px; 
-    border: 1.5px solid #d1d5db; /* Light gray border */
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-/* Tables */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
-}
-
-table, th, td {
-    border: 1.5px solid #94a3b8;
-    padding: 10px;
-}
-
-th {
-    background-color: #f1f5f9;
-}
-
-/* Forms */
-form input, form textarea, form button {
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border: 1.5px solid #cbd5e1;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #1e3a8a;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-form button:hover {
-    background-color: #3b82f6;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.9rem;
-    color: #555;
-    border-top: 3px solid #cbd5e1;
-    padding-top: 10px;
-}
-
-/* Background Colors for specific sections for better visual overall appearance */
-#about {
-    background-color: #fef3c7; /* Light yellow */
-}
-
-#services\ section {
-    background-color: #d1fae5; /* Light green */
-}
-
-#projects\ section {
-    background-color: #e0f2fe; /* Light blue */
-}
-
-#featured\ video\ section {
-    background-color: #fae8ff; /* Light purple */
-}
-
-#contact\ section {
-    background-color: #ffe4e6; /* Light pink */
-}
-
-#newsletter\ section {
-    background-color: #f0f9ff; /* Pale sky blue */
-}
-
-#github\ button {
-    background-color: #e5e7eb; /* Neutral gray */
-    padding: 105px;
-    border-radius: 8px;
-}
-
-
 
